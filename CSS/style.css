@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+    font-family: sans-serif;
+}   
+/* header  */
+
+header{
+    height: 100px;
+    background-color: orange;
+      
+}
+header nav{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+    
+}
+
+.elenco a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.loghi svg{
+    width: 20px;
+    fill: white;
+    margin: 0 5px;
+}
+
+
+/* iformazione proncipale main  */
+.gruppo1, .gruppo2{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+    gap: 20px;
+    
+}
+.img, .info{
+    width: 300px;
+    position: relative;
+           
+}
+
+
+.img_heard{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    padding: 5px
+}
+.img_heard svg:hover{
+    fill: red;
+
+}
+.img .red{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background-color: red;
+}
+.img .green{
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    background-color: green;
+}
+.price{
+    color: red;
+}
+.old_price{
+    text-decoration: line-through;
+}
+.img .foto_full{
+    display: none;
+}
+.img .foto:hover .foto_full{
+    display: inline-block;
+}
+.img .foto:hover .foto_nofull{
+    display: none;
+}
+
+/* <!-- informazioni secondarie foote         --> */
+footer{
+    
+    margin: auto;
+    height: 100px;
+    background-color:#202020 ;
+}
+.azienda a{
+    text-decoration: none;
+    color: white;
+    
+}
+.informazioni{
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 25px 0;
+}
