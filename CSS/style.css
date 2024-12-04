@@ -4,6 +4,7 @@
     box-sizing: border-box;
     /* outline: 1px solid black; */
     font-family: sans-serif;
+    
 }   
 /* header  */
 
@@ -42,7 +43,7 @@ header nav{
     display: flex;
     justify-content: center;
     padding: 50px 0 0 0;
-    gap: 20px;
+    gap: 10px;
     
 }
 .img, .info{
@@ -94,13 +95,14 @@ header nav{
 /* <!-- informazioni secondarie foote         --> */
 footer{
     
-    margin: auto;
+    margin: 50px auto;
     height: 100px;
     background-color:#202020 ;
 }
 .azienda a{
     text-decoration: none;
     color: white;
+    
     
 }
 .informazioni{
